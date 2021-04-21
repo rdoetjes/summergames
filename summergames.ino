@@ -103,8 +103,8 @@ void joystick(){
   
   switch (EVENT) {
     case CYCLE:
-       PORTD |= 124-circle(); //now or the current joystick
-       break;
+      PORTD |= 124-circle(); //now or the current joystick
+      break;
     
     case RUN:
       PORTD |= 124-leftright(); //now or the current joystick
@@ -114,6 +114,7 @@ void joystick(){
 
 /*
  * Parse the control char from the serial console
+ * joyDelay is passed ny reference to immediately set the delay time
  */
 void parseByte(byte c, Delay *joyDelay){
 
