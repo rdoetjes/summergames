@@ -3,7 +3,7 @@ Callous Coder, creates a machine based on Arduino to beat the 100M Dash record o
 
 
 SUMMER GAMES 100M DASH RECORD SHATTERING MACHINE!
-by Callous Coder, 2021 https://youtube.com/callouscoder
+by Callous Coder, 2021 https://www.youtube.com/watch?v=avj_3vjMyr0&t=114s
 
 This code may be used in any way, shape or shitty form.
 The code simulates a joystick, which is connected to pins
